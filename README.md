@@ -1,9 +1,10 @@
 # AI-powered-tool-to-detect-potential-bottleneck-in-code-snippets
 
 ## Features
-- **AI-powered code analysis**: Uses a pre-trained **CodeBERT model** to analyze code for common bottlenecks such as inefficient algorithms, redundant code, and excessive function calls.
+- **AI-powered code analysis**: Uses a pre-trained **CodeBERT model** to analyze code for common bottlenecks such as inefficient algorithms, redundant code, and excessive function calls. To get better performance it was also finetuned on CodeXGLUE dataset. (refer code-assignment.ipynb)
 - **Optimization suggestions**: Provides actionable suggestions for improving code based on detected issues.
 - **User-friendly interface**: A simple and intuitive Streamlit interface where users can upload their Python code files and receive optimization suggestions instantly.
+
 
 ![Screenshot 2024-12-09 104926](https://github.com/user-attachments/assets/20a47b2b-2acf-4d21-ac72-106475aab84e)
 
