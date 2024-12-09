@@ -7,10 +7,17 @@
 
 ![Screenshot 2024-12-09 104926](https://github.com/user-attachments/assets/20a47b2b-2acf-4d21-ac72-106475aab84e)
 
+**Simple UI**
+Users can easily input their code snippet file to test for bottlenecks
 ![Screenshot 2024-12-09 104953](https://github.com/user-attachments/assets/e5df4ec0-e81f-43ca-9fa2-2d89ff85ab03)
 
+**Analysis & Optimization**
+It suggests the potential bottleneck analysis and also the optimization to fix that
+
+**test 1**
 ![Screenshot 2024-12-09 105004](https://github.com/user-attachments/assets/0526d6de-036a-4226-8f41-80d5ef0aa81a)
 
+**test 2**
 ![Screenshot 2024-12-09 105038](https://github.com/user-attachments/assets/bc66841c-bb72-40e6-adea-83320ebbb384)
 
 ## How to Run the Project
