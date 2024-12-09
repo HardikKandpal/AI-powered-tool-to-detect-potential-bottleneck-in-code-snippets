@@ -20,6 +20,15 @@ It suggests the potential bottleneck analysis and also the optimization to fix t
 **test 2**
 ![Screenshot 2024-12-09 105038](https://github.com/user-attachments/assets/bc66841c-bb72-40e6-adea-83320ebbb384)
 
+****Assumptions and Limitations****
+Assumptions
+The code uploaded by the user is written in Python.
+The CodeBERT model is capable of understanding the uploaded code, although its suggestions may not be perfect for all codebases.
+The user is familiar with basic Python programming and can apply the optimization suggestions to improve their code.
+Limitations
+The model's suggestions are based on common patterns and might not be applicable for every codebase. The tool is designed to offer suggestions for common bottlenecks, but it cannot guarantee that every suggestion will improve performance in all cases.
+The analysis is simplified, and it does not perform a deep profiling of the code execution (e.g., measuring runtime performance).
+The tool currently works with Python code and is not intended for other programming languages.
 ## How to Run the Project
 
 ### Prerequisites
