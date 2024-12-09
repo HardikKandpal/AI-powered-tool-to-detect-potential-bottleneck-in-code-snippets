@@ -21,6 +21,13 @@ It suggests the potential bottleneck analysis and also the optimization to fix t
 **test 2**
 ![Screenshot 2024-12-09 105038](https://github.com/user-attachments/assets/bc66841c-bb72-40e6-adea-83320ebbb384)
 
+# Design Choices
+## Model Selection
+The project uses CodeBERT, a model specifically pre-trained on programming code, for code analysis. CodeBERT is used to detect issues in the code structure and suggest optimizations. The model is fine-tuned with a dataset that contains various performance bottlenecks.
+
+## Streamlit Interface
+Streamlit was chosen for its ease of use in building interactive web applications. It allows for quick deployment and provides a user-friendly interface with minimal code. The app is simple: upload the code, get feedback on bottlenecks, and apply the suggested optimizations.
+
 ## Assumptions and Limitations
 # Assumptions
 The code uploaded by the user is written in Python.
